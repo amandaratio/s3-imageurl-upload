@@ -1,0 +1,29 @@
+{
+  "name": "s3-imgurl-upload",
+  "version": "1.0.6",
+  "description": "Upload an image from url to s3 as base64",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "s3",
+    "image",
+    "upload",
+    "url",
+    "image-url",
+    "base64"
+  ],
+  "author": "Amanda Horacio",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.218.1",
+    "jimp": "^0.2.28",
+    "request-image-size": "^2.1.0",
+    "url-exists": "^1.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amandaratio/s3-imageurl-upload"
+  }
+}
