@@ -61,7 +61,7 @@ function upload(awsKID, awsAK, s3Bucket, imgUrl, endpoint, imgKey, width, height
     
     let s3 = new AWS.S3(),
     img_url = imgUrl,
-    s3_img_url = `${endpoint}${imgKey}`;
+    s3_img_url = `${endpoint}/${imgKey}`;
 
     return new Promise((resolve, reject) => {
         _urlExists(img_url)
