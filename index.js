@@ -1,3 +1,9 @@
+/** 
+  * @author Amanda Horacio
+  * s3-imgurl-uploader
+  * Upload Image from Url to S3
+  */ 
+
 "use strict";
 
 const AWS = require('aws-sdk'),
