@@ -1,6 +1,6 @@
 {
   "name": "s3-imgurl-upload",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "Upload an image from url to s3 as base64",
   "main": "index.js",
   "scripts": {
