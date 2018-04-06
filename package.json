@@ -12,7 +12,8 @@
     "upload",
     "url",
     "image-url",
-    "base64"
+    "base64",
+    "aws"
   ],
   "author": "Amanda Horacio",
   "license": "ISC",
